@@ -4,10 +4,15 @@ public class inorder {
         if(root == null){
             return;
         }
-
         inorderTraversal(root.left);
         System.out.println(root.data);
         inorderTraversal(root.right);
+
+        //for preorder
+        //root left right
+
+        //for postorder
+        //left right root
     }
 
     public static void main(String[] args) {
