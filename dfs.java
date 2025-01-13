@@ -26,6 +26,6 @@ public class dfs {
         System.out.println("dfs traversal is as follows");
 
         dfsobj.dfsTraversal(root);
-        
+        //dfs traversal answer 10 8 5 4 9 6 7 
     }
 }
