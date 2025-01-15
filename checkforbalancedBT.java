@@ -56,7 +56,6 @@ public class checkforbalancedBT {
         root.left.left = new tree(5);
         root.left.right = new tree(4);
         root.left.right.left = new tree(3);
-        root.left.right.left.right = new tree(2);
 
         checkforbalancedBT obj = new checkforbalancedBT();
         boolean ans = obj.helper(root); //this method takes O(N2)
