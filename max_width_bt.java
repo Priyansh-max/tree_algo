@@ -1,5 +1,5 @@
 import java.util.*;
-
+//width defination --> No of nodes in a particular lvl that it can fit in between the two nodes
 class Pair{
     tree node;
     int idx;
