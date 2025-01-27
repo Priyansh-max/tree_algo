@@ -1,4 +1,6 @@
 public class LCA {
+    //A lowest common ancestor in simple terms is a parent which is common to both the given nodes like a common node from where we can reach both the nodes going forward
+
     public tree helper(tree root , tree node1 , tree node2){
         if(root == null || root == node1 || root == node2){
             return root;
