@@ -4,7 +4,7 @@ public class childrenSumProperty {
         if(root == null){
             return;
         }
-        int child = 0;
+        int child = 0; //adding the child value to check if greater or less and do operation accordingly
         if(root.left != null){
             child += root.left.data;
         }
@@ -25,7 +25,7 @@ public class childrenSumProperty {
         helper(root.left);
         helper(root.right);
 
-        int tot = 0;
+        int tot = 0; //using this variable to set the values after all the operation is done this variable helps set the correct values when returing from recurrsion
         if(root.left != null){
             tot += root.left.data;
         }
@@ -51,6 +51,6 @@ public class childrenSumProperty {
         childrenSumProperty obj = new childrenSumProperty();
         obj.helper(root);
 
-        System.out.println(root.data);
+        System.out.println(root.data); //ans - 22 according to the tree
     }
 }
