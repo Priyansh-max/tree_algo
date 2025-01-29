@@ -75,7 +75,7 @@ public class minTimeToBurn{
         minTimeToBurn obj = new minTimeToBurn();
 
         obj.makeParent(root, mp);
-        int ans = obj.helper(root.right, mp);
+        int ans = obj.helper(root.right, mp); //answer must be 4 starting from node 9 for the given tree
 
         System.out.println("The min time to burn the binary tree starting with node " + root.right.data + " is " + ans);
 
