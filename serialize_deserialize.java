@@ -84,6 +84,7 @@ public class serialize_deserialize {
         StringBuilder ans = obj.Seralize(root);
 
         System.out.println(ans);
+        // 10,8,9,5,4,6,7,n,n,3,n,n,n,n,n,n,n,
 
         tree finaltree = obj.deseralize(ans);
 
