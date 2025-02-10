@@ -34,7 +34,7 @@ public class CeilBST {
 
         CeilBST obj = new CeilBST();
 
-        obj.helper(root, 7); //must give 13 as output
+        obj.helper(root, 7); //must give 9 as output for input 7
 
         System.out.println(obj.ans);
     }
